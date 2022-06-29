@@ -1,25 +1,21 @@
 import { styled } from '@styles/stitches.config';
 
-export const Heading = styled('h2', {
+export const Text = styled('p', {
   color: '$text-primary',
 
   variants: {
     size: {
+      xsm: {
+        fontSize: '$1',
+      },
       sm: {
-        fontSize: '$3',
+        fontSize: '$2',
       },
       md: {
-        fontSize: '$4',
+        fontSize: '$3',
       },
       lg: {
-        fontSize: '$5',
-      },
-      xlg: {
-        fontSize: '$6',
-      },
-      '2xlg': {
-        fontSize: '$7',
-        lineHeight: '59px',
+        fontSize: '$4',
       },
     },
     variant: {
